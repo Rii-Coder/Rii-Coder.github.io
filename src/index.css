@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  background-color: #222222;
+  margin: 0;
+  font-family: "Quicksand";
+  color: #f2f2f2;
+}
+.button{
+  background-color: #333;
+  color: #f2f2f2;
+  font-size: larger;
+  font-family: "Quicksand";
+  margin: 50px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+}
+
+.button:hover{
+  color: #333;
+  background-color: #00ffff ;
+  border-radius: 8px;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #333;
+}
+.navbar h1 {
+  color: #00ffff;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #333;
+  background-color: #00ffff ;
+  border-radius: 8px;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.characterPreview{
+  margin-top: 50px;
+  margin-bottom: 200px;
+  padding-bottom: 200px;
+}
+.instruction01{
+  margin-top: 20px;
+  color: #00ffff;
+}
+.PerkIcon{
+  height: auto;
+  width: 20%;
+  align-items: center;
+  float: left;
+  margin-left: 40px;
+}
+.perkTitle{
+  margin-top: 20px;
+  color: #00ffff;
+  text-align: center;
+}
+.loading{
+  text-align: center;
+  color: #00ffff;
+}
+.buttons{
+  text-align: center;
+}
+.divCenter{
+  text-align: center;
+}
+.imgColumn{
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+.infoColumn{
+  float: right;
+  width: 70%;
+  height: 100%;
+}
+.magicwall{
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  font-family: "Open Sans",sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+  background-color: transparent;
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  list-style: none;
+  font-size: 0;
+  z-index: 1;
+}
